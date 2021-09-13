@@ -1,0 +1,12 @@
+# gql-backend/src/graphql/types/User.graphql
+
+type User {
+    id: UUID!
+    username: String!
+    password: String!
+    email: String!
+    privilege: String!
+    active: Boolean!
+    createdAt: DateTime!
+    updatedAt: DateTime!
+}

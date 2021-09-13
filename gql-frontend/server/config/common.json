@@ -1,0 +1,9 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "security": {
+    "secretKey": "whaddaya_know",
+    "expiresIn": "7d"
+  }
+}

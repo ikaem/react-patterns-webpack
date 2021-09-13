@@ -1,0 +1,6 @@
+# gql-backend/src/graphql/types/Query.graphql
+
+type Query {
+    getUsers: [User!]
+    getUserData(token: String!): User!
+}

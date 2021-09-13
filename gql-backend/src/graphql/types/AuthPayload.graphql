@@ -1,0 +1,5 @@
+# gql-backend/src/graphql/types/AuthPayload.graphql
+
+type AuthPayload {
+    token: String!
+}

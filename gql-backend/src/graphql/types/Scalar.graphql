@@ -1,0 +1,5 @@
+# gql-backend/src/graphql/types/Scalar.graphql
+
+scalar UUID
+scalar DateTime
+scalar JSON

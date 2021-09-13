@@ -1,0 +1,6 @@
+# gql-backend/src/graphql/types/Mutation.graphql
+
+type Mutation {
+    createUser(input: CreateUserInput): User!
+    login(input: LoginInput): AuthPayload
+}
