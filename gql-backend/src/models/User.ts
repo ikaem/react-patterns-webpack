@@ -89,7 +89,7 @@ export default (sequelize: Sequelize) => {
                 // instead, we probably just chnage the data in place
                 // beforeCreate(user: Model<IUser, IUser>): HookReturn {
                 beforeCreate(user: any): HookReturn {
-                    console.log({ user });
+                    console.log("karlo", { user });
                     user.dataValues.password = encrypt(
                         user.dataValues.password
                     );

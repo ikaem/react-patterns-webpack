@@ -6,7 +6,6 @@
   "scripts": {
     "start": "ts-node server/server",
     "dev": "ts-node-dev server/server",
-    "webpack-dev": "cross-env NODE_ENV=development webpack serve --mode development --config config/webpack/webpack.config.ts",
     "webpack": "cross-env NODE_ENV=development webpack serve --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "clean": "rimraf dist/ && rimraf public/app",

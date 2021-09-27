@@ -1,6 +1,6 @@
 import { isBrowser } from '@contentpi/lib';
 import LoginLayout from '../components/users/LoginLayout';
-import UserProvider from '../context/user';
+import UserProvider from '../contexts/user';
 
 interface IProps {
   currentUrl: string;

@@ -30,6 +30,8 @@ export const doLogin = async (
 ): Promise<IAuthPayload> => {
     const user = await getUserBy({ email }, models);
 
+    console.log("this is user found", {});
+
     if (!user) throw new AuthenticationError("Invalid login");
 
     console.log({ user });

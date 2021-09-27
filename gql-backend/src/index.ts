@@ -15,6 +15,7 @@ const schema = makeExecutableSchema({
 const apolloServer = new ApolloServer({
     schema,
     context: (a) => {
+        // console.log({a})
         return {
             models,
         };

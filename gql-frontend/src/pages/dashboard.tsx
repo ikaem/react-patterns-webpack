@@ -1,5 +1,5 @@
 import DashboardLayout from '../components/users/dashboard/DashboardLayout';
-import UserProvider from '../context/user';
+import UserProvider from '../contexts/user';
 
 const Dashboard = () => {
   return (

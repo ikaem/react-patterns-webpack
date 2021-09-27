@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { UserContext } from '../../context/user';
+import { UserContext } from '../../contexts/user';
 import Login from './Login';
 
 interface IProps {
